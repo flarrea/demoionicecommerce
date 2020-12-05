@@ -1,0 +1,7 @@
+{
+  "name": "labellafruta",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
