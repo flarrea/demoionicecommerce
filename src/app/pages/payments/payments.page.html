@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>payments</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <form>
+      <ion-item-group>
+        <ion-item-divider>
+          <ion-label>Datos de Envío</ion-label>
+        </ion-item-divider>
+      <ion-item>
+        <ion-label stacked>1.</ion-label>
+        <ion-input type="text" placeholder="Nombre Completo">
+        </ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label stacked>2.</ion-label>
+        <ion-input type="text" placeholder="Dirección">
+        </ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label stacked>3.</ion-label>
+        <ion-input type="text" placeholder="Comuna">
+        </ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label stacked>4.</ion-label>
+        <ion-textarea type="text" placeholder="Ciudad">
+        </ion-textarea>
+      </ion-item>
+  
+      <ion-button expand="block" (click)="send()">Solicitar</ion-button>
+    </ion-item-group>
+    </form>
+  </ion-list>
+</ion-content>
